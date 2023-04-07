@@ -44,3 +44,13 @@ git checkout {nome da branch}
 ```
 git checkout -b {nome da branch}
 ```
+
+## 9. Mostra informações detalhadas de uma branch
+```
+git show
+```
+
+## 10. Mostrar o historicos de commits de um repositório
+```
+git log
+```
