@@ -55,7 +55,7 @@ git show
 git log
 ```
 
-## 10. Mostrar condições de uma branch
+## 10. Mostrar alterações não commitadas de uma branch
 ```
 git status
 ```
