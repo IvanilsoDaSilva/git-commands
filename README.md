@@ -69,3 +69,13 @@ git pull origin
 ```
 git push origin :{nome da branch}
 ```
+
+## 13. Apagar branch local
+```
+git branch -d :{nome da branch}
+```
+
+## 14. Apagar branch local(Forçado)
+```
+git branch -D :{nome da branch}
+```
