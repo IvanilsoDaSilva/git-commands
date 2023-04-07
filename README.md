@@ -15,12 +15,12 @@ git add {caminho do arquivo a ser adicionado/* ou . para adicinar todas alteraç
 git commit -m {descrição da alteração}
 ```
 
-## 4. Subir alterações de um repositório local para um repositório remoto(Depois do passo 2 e 3)
+## 4. Atualizar repositório local apartir de um repositório remoto(Depois do passo 2 e 3)
 ```
 git push --set-upstream {link do repositório remoto} {nome da branch do repositório local}
 ```
 
-## 5. Puxar todas as branchs de um repositório remoto para um repositório local(Depois do passo 1)
+## 5. Atualizar repositório local pelo repositório remoto(Depois do passo 1)
 ```
 git fetch --prune --all
 ```
@@ -65,17 +65,17 @@ git status
 git pull origin
 ```
 
-## 12. Apagar branch remota
+## 12. Deletar branch remota
 ```
 git push origin :{nome da branch}
 ```
 
-## 13. Apagar branch local
+## 13. Deletar branch local
 ```
 git branch -d :{nome da branch}
 ```
 
-## 14. Apagar branch local(Forçado)
+## 14. Deletar branch local(Forçado)
 ```
 git branch -D :{nome da branch}
 ```
