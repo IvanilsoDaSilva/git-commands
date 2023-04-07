@@ -59,3 +59,13 @@ git log
 ```
 git status
 ```
+
+## 11. Atualizar branch local apartir da remota
+```
+git pull origin
+```
+
+## 12. Apagar branch remota
+```
+git push origin :{nome da branch}
+```
