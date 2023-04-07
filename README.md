@@ -54,3 +54,8 @@ git show
 ```
 git log
 ```
+
+## 10. Mostrar condições de uma branch
+```
+git status
+```
