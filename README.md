@@ -15,7 +15,7 @@ git add {caminho do arquivo a ser adicionado/* ou . para adicinar todas alteraç
 git commit -m {descrição da alteração}
 ```
 
-# 4. Subir alterações de um repositório local para um repositório remoto(Depois do passo 2 e 3)
+## 4. Subir alterações de um repositório local para um repositório remoto(Depois do passo 2 e 3)
 ```
 git push --set-upstream {link do repositório remoto} {nome da branch do repositório local}
 ```
