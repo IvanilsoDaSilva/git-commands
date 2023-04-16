@@ -1,7 +1,16 @@
 <!-- Animated text -->
 <div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com/?color=FFFFFF&size=35&vCenter=true&width=290&lines=GIT;TECHNOLOGIES"/>
+</div>
+
+##
+<img width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"/> <!-- git -->
+
+<div align="left">
   <img src="https://readme-typing-svg.herokuapp.com/?color=FFFFFF&size=35&vCenter=true&width=290&lines=GIT;COMMANDS"/>
 </div>
+
+##
 
 ## 1. Copy a remote repository
 ```
