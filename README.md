@@ -5,7 +5,7 @@
 
 ##
 <div style="display: inline_block">
-  <img width="80px" src="https://github.com/IvanilsoDaSilva/git/blob/master/workflow/images/terminal.jpg"/> <!-- terminal -->
+  <img width="80px" src="https://github.com/IvanilsoDaSilva/git/blob/master/.github/images/terminal.jpg"/> <!-- terminal -->
   <img width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"/> <!-- git -->
 </div">
 
