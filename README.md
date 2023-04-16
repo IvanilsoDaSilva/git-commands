@@ -1,81 +1,92 @@
-# testing-git
+# GIT
 
-## 1. Copiar um repositório remoto
+## 1. Copy a remote repository
 ```
-git clone {link do repositório}
-```
-
-## 2. Adicionar alterações de um repositório local
-```
-git add {caminho do arquivo a ser adicionado/* ou . para adicinar todas alterações}
+git clone {remote repository link}
 ```
 
-## 3. Empacotar alterações de um repositório local
+## 2. Add changes from a local repository
 ```
-git commit -m {descrição da alteração}
-```
-
-## 4. Atualizar repositório local apartir de um repositório remoto(Depois do passo 2 e 3)
-```
-git push --set-upstream {link do repositório remoto} {nome da branch do repositório local}
+git add {path of the file to be added or use "*" or also "." to add all changes}
 ```
 
-## 5. Atualizar repositório local pelo repositório remoto(Depois do passo 1)
+## 3. Pack changes from a local repository into a commit
+```
+git commit -m {description}
+```
+
+## 4. Update local repository from remote repository
+```
+git push --set-upstream {remote repository link} {remote branch name}
+```
+
+## 5. Update local repository from remote repository
 ```
 git fetch --prune --all
 ```
 
-## 6. Mostrar branchs do repositório local
+## 6. Show local repository branches
 ```
 git branch
 ```
 
-## 7. Mostrar branchs do repositório local(Depois do passo 1)
+## 7. Show remoto repository branches
 ```
 git branch -a
 ```
 
-## 8. Alterar branch a branch local
+## 8. Switch between local branches
 ```
-git checkout {nome da branch}
-```
-
-## 8. Criar uma branch local
-```
-git checkout -b {nome da branch}
+git checkout {branch name}
 ```
 
-## 9. Mostra informações detalhadas de uma branch
+## 8. Create a local branch
+```
+git checkout -b {branch name}
+```
+
+## 9. Shows detailed information about a branch
 ```
 git show
 ```
 
-## 10. Mostrar o historicos de commits de um repositório
+## 10. Show the commit history of a repository
 ```
 git log
 ```
 
-## 10. Mostrar alterações não commitadas de uma branch
+## 10. Show uncommitted changes from a branch
 ```
 git status
 ```
 
-## 11. Atualizar branch local apartir da remota
+## 11. Update local branch from remote
 ```
 git pull origin
 ```
 
-## 12. Deletar branch remota
+## 12. Delete a remote branch
 ```
-git push origin :{nome da branch}
-```
-
-## 13. Deletar branch local
-```
-git branch -d :{nome da branch}
+git push origin :{branch name}
 ```
 
-## 14. Deletar branch local(Forçado)
+## 13. Delete a local branch
 ```
-git branch -D :{nome da branch}
+git branch -d :{branch name}
 ```
+
+## 14. Delete a local branch(forced)
+```
+git branch -D :{branch name}
+```
+
+## 15. Undo changes to created files
+```
+git clean -f -d
+```
+
+## 15. Undo changes
+```
+git checkout .
+```
+
