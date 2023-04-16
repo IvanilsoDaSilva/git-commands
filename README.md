@@ -1,6 +1,6 @@
 <!-- Animated text -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=FF00FF&size=35&center=true&vCenter=true&width=290&lines=GIT;COMMANDS"/>
+<div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com/?color=FFFFFF&size=35&center=true&vCenter=true&width=290&lines=GIT;COMMANDS"/>
 </div>
 
 ## 1. Copy a remote repository
