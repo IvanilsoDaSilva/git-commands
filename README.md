@@ -5,9 +5,10 @@
 
 ##
 <div style="display: inline_block">
-  <img width="80px" src="https://github.com/IvanilsoDaSilva/git/blob/master/.github/images/terminal.jpg"/> <!-- terminal -->
-  <img width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"/> <!-- git -->
-</div">
+
+  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=FFFFFF&color=000000)&nbsp;
+  
+</div>
 
 <div align="left">
   <img src="https://readme-typing-svg.herokuapp.com/?color=FFFFFF&size=35&vCenter=true&width=290&lines=GIT;COMMANDS"/>
