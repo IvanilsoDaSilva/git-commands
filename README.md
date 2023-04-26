@@ -106,3 +106,13 @@ git clean -f -d
 git checkout .
 ```
 
+## 16. Show git user name
+```
+git config user.name
+```
+
+## 17. Show git user email
+```
+git config user.email
+```
+
