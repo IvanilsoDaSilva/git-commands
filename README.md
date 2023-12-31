@@ -33,17 +33,17 @@ This Git repository was created for the purpose of storing and documenting a col
 <h2 align="right" id="ponto1">1.4. HOW TO USE </h2>
 <p align="right">Utilize os comandos seguintes dando <kbd>CTRL</kbd>+<kbd>V</kbd> no terminal e/ou console.</p>
 
-📌 CASE EXPLANATION 1
+📌 CASE
 ```
 code
 ```
 
-📌 CASE EXPLANATION 2
+📌 CASE
 ```
 code
 ```
 
-📌 CASE EXPLANATION 3
+📌 CASE
 ```
 code
 ```
