@@ -34,7 +34,7 @@ This Git repository was created for the purpose of storing and documenting a col
 </div>
 
 <h2 align="right" id="ponto1">1.4. COMMANDS 💡</h2>
-<p align="right">Use the following commands (if there are commands) by <kbd>CTRL</kbd>+<kbd>V</kbd> in the terminal and/or console.</p>
+<p align="right">Use the following commands (if there are commands) by <kbd>CTRL</kbd>+<kbd>V</kbd> where necessary</p>
 
 📌 COPY A REMOTE REPOSITORY
 ```
