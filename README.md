@@ -136,6 +136,14 @@ git config user.name
 git config user.email
 ```
 
+📌 ADD COAUTHOR
+```
+$ git commit -m "Commit name.
+>
+>
+Co-authored-by: {COAUTHOR NAME} <{COAUTHOR EMAIL}>
+```
+
 <h2 align="right">1.5. OTHER REPOSITORIES 📘</h2>
 
 <div>
