@@ -49,7 +49,7 @@ git clone {remote repository link}
 
 📌 ADD CHANGES FROM A LOCAL REPOSITORY
 ```
-git add {path of the file to be added or use "*" or also "." to add all changes}
+git add {path of the files to be added separated by space, or use "*" and also "." to add all changes}
 ```
 
 📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT
@@ -117,7 +117,7 @@ git push origin :{branch name}
 git branch -d :{branch name}
 ```
 
-📌 DELETE A LOCAL BRANCH(FORCED)
+📌 DELETE A LOCAL BRANCH (FORCED)
 ```
 git branch -D :{branch name}
 ```
@@ -144,10 +144,15 @@ git config user.email
 
 📌 ADD COAUTHOR
 ```
-$ git commit -m "Commit name.
+git commit -m "Commit name.
 >
 >
 Co-authored-by: {COAUTHOR NAME} <{COAUTHOR EMAIL}>
+```
+
+📌 UNDO THE LAST COMMIT (WITHOUT LOSING CHANGES)
+```
+git reset --soft HEAD~1
 ```
 
 <h2 align="right">1.5. OTHER REPOSITORIES 📘</h2>
