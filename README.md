@@ -57,12 +57,12 @@ git add {path of the files to be added separated by space, or use "*" and also "
 git commit -m {description}
 ```
 
-📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY
+📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY
 ```
 git push --set-upstream {remote repository link} {remote branch name}
 ```
 
-📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY
+📌 UPDATE REMOTE REPOSITORY BRANCHS FROM LOCAL REPOSITORY
 ```
 git fetch --prune --all
 ```
@@ -102,7 +102,7 @@ git log
 git status
 ```
 
-📌 UPDATE LOCAL BRANCH FROM REMOTE
+📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY
 ```
 git pull origin
 ```
@@ -153,6 +153,16 @@ Co-authored-by: {COAUTHOR NAME} <{COAUTHOR EMAIL}>
 📌 UNDO THE LAST COMMIT (WITHOUT LOSING CHANGES)
 ```
 git reset --soft HEAD~1
+```
+
+📌 COPY A REMOTE REPOSITORY (EXACT COPY)
+```
+git clone --mirror {remote repository link}
+```
+
+📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY (EXACT COPY)
+```
+git push --mirror {remote repository link}
 ```
 
 <h2 align="right">1.5. OTHER REPOSITORIES 📘</h2>
