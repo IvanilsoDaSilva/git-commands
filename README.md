@@ -145,8 +145,8 @@ git config user.email
 📌 ADD COAUTHOR
 ```
 git commit -m "Commit name.
->
->
+
+
 Co-authored-by: {COAUTHOR NAME} <{COAUTHOR EMAIL}>
 ```
 
