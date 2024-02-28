@@ -62,7 +62,7 @@ git commit -m {description}
 git push --set-upstream {remote repository link} {remote branch name}
 ```
 
-📌 UPDATE REMOTE REPOSITORY BRANCHS FROM LOCAL REPOSITORY
+📌 UPDATE LOCAL REPOSITORY BRANCHS FROM REMOTE REPOSITORY
 ```
 git fetch --prune --all
 ```
@@ -72,7 +72,7 @@ git fetch --prune --all
 git branch
 ```
 
-📌 SHOW REMOTO REPOSITORY BRANCHES
+📌 SHOW REMOTE REPOSITORY BRANCHES
 ```
 git branch -a
 ```
