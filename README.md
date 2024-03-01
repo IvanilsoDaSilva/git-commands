@@ -122,11 +122,6 @@ git branch -d :{branch name}
 git branch -D :{branch name}
 ```
 
-📌 UNDO CHANGES TO CREATED FILES
-```
-git clean -f -d
-```
-
 📌 UNDO CHANGES
 ```
 git checkout .
