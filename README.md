@@ -42,32 +42,32 @@ This Git repository was created for the purpose of storing and documenting a col
 <h2 align="right">1.5. OTHERS COMMANDS 💡</h2>
 <p align="right">Use the following commands (if there are commands) by <kbd>CTRL</kbd>+<kbd>V</kbd> where necessary</p>
 
-📌 COPY A REMOTE REPOSITORY ✨
+📌 COPY A REMOTE REPOSITORY ✨  
 ```
 git clone {remote repository link}
 ```
 
-📌 ADD CHANGES FROM A LOCAL REPOSITORY ✨
+📌 ADD CHANGES FROM A LOCAL REPOSITORY ✨  
 ```
 git add {path of the files to be added separated by space, or use "*" and also "." to add all changes}
 ```
 
-📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT ✨
+📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT ✨  
 ```
 git commit -m {description}
 ```
 
-📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY ✨
+📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY ✨  
 ```
 git push --set-upstream {remote repository link} {remote branch name}
 ```
 
-📌 UPDATE LOCAL REPOSITORY BRANCHS FROM REMOTE REPOSITORY ✨
+📌 UPDATE LOCAL REPOSITORY BRANCHS FROM REMOTE REPOSITORY ✨  
 ```
 git fetch --prune --all
 ```
 
-📌 SHOW LOCAL REPOSITORY BRANCHES ✨
+📌 SHOW LOCAL REPOSITORY BRANCHES ✨  
 ```
 git branch
 ```
@@ -77,12 +77,12 @@ git branch
 git branch -a
 ```
 
-📌 SWITCH BETWEEN LOCAL BRANCHES ✨
+📌 SWITCH BETWEEN LOCAL BRANCHES ✨  
 ```
 git checkout {branch name}
 ```
 
-📌 CREATE A LOCAL BRANCH ✨
+📌 CREATE A LOCAL BRANCH ✨  
 ```
 git checkout -b {branch name}
 ```
@@ -97,12 +97,12 @@ git show
 git log
 ```
 
-📌 SHOW UNCOMMITTED CHANGES FROM A BRANCH ✨
+📌 SHOW UNCOMMITTED CHANGES FROM A BRANCH ✨  
 ```
 git status
 ```
 
-📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY ✨
+📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY ✨  
 ```
 git pull
 ```
@@ -112,7 +112,7 @@ git pull
 git push origin :{branch name}
 ```
 
-📌 DELETE A LOCAL BRANCH ✨
+📌 DELETE A LOCAL BRANCH ✨  
 ```
 git branch -d :{branch name}
 ```
@@ -145,7 +145,7 @@ git commit -m "Commit name.
 Co-authored-by: {COAUTHOR NAME} <{COAUTHOR EMAIL}>
 ```
 
-📌 UNDO THE LAST COMMIT (WITHOUT LOSING CHANGES) ✨
+📌 UNDO THE LAST COMMIT (WITHOUT LOSING CHANGES) ✨  
 ```
 git reset --soft HEAD~1
 ```
