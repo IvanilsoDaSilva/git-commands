@@ -160,6 +160,12 @@ git clone --mirror {remote repository link}
 git push --mirror {remote repository link}
 ```
 
+📌 BRING THE UPDATE FROM A COMMIT TO THE CURRENT BRANCH  
+```
+git cherry-pick {hash do commit}
+```
+
+
 <h2 align="right">1.6. OTHER REPOSITORIES 📘</h2>
 
 <div>
