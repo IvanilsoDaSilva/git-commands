@@ -147,7 +147,12 @@ Co-authored-by: {COAUTHOR NAME} <{COAUTHOR EMAIL}>
 
 📌 UNDO THE LAST COMMIT (WITHOUT LOSING CHANGES) ✨  
 ```
-git reset --soft HEAD~1
+git reset --soft HEAD~{number of commits back}
+```
+
+📌 UNDO THE LAST COMMIT (LOSING CHANGES)   
+```
+git reset --hard HEAD~{number of commits back}
 ```
 
 📌 COPY A REMOTE REPOSITORY (EXACT COPY)
