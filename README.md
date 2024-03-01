@@ -122,7 +122,7 @@ git branch -d :{branch name}
 git branch -D :{branch name}
 ```
 
-📌 UNDO CHANGES
+📌 UNDO ALL CHANGES
 ```
 git checkout .
 ```
