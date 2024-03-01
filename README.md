@@ -162,7 +162,7 @@ git push --mirror {remote repository link}
 
 📌 BRING THE UPDATE FROM A COMMIT TO THE CURRENT BRANCH  
 ```
-git cherry-pick {hash do commit}
+git cherry-pick {commit hash}
 ```
 
 
