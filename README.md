@@ -104,7 +104,7 @@ git status
 
 📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY
 ```
-git pull origin
+git pull
 ```
 
 📌 DELETE A REMOTE BRANCH
