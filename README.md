@@ -244,6 +244,27 @@ A ideia central do Git Semântico é atribuir um significado claro às alteraç�
 <!-- Example img -->
 <img width=100% src="https://ivanilsodasilva.github.io/git-commands/assets/gitsemantic-example.png"/>
 
+📌 STRUCTURE
+```
+{type}({scope: optional}): {description}
+{body: optional}
+{footer: optional}
+```
+
+📌 EXAMPLE
+```
+FEAT(api):Impedir a corrida de solicitações
+
+Introduza um ID de solicitação e uma referência à solicitação mais recente. Demitir
+respostas recebidas que não sejam da última solicitação.
+
+Remova os tempos limite que foram usados para mitigar o problema de corrida, mas são
+obsoletos agora.
+
+Revisado por: Z
+Referências: #123
+```
+
 📌 FEAT
 
 Indica a adição de uma nova funcionalidade ao projeto. Use este prefixo quando o commit introduzir uma nova capacidade ou recurso no software.
@@ -299,6 +320,10 @@ Utilizado para o primeiro commit de um projeto, marcando o início do repositór
   <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=IvanilsoDaSilva&repo=udemy-introducao-python&bg_color=FF00FF&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&border_color=FFFFFF"/>
 </div>
 <a href="https://github.com/IvanilsoDaSilva?tab=repositories">More...</a>
+
+<h2 align="right">1.8. FONTS 📚</h2>
+<a href="https://www.conventionalcommits.org/en/v1.0.0/">www.conventionalcommits.org</a>
+
 
 <!-- Animated img -->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=FF00FF&height=120&section=footer"/>
