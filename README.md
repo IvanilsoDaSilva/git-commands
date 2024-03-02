@@ -315,6 +315,9 @@ Utilizado para o primeiro commit de um projeto, marcando o início do repositór
 
 <h2 align="right">1.8. FONTS 📚</h2>
 <a href="https://www.conventionalcommits.org/en/v1.0.0/">www.conventionalcommits.org</a>
+<a href="https://blog.betrybe.com/git/git-flow/">betrybe.com</a>
+<a href="https://www.linkedin.com/pulse/git-sem%C3%A2ntico-aumentando-efici%C3%AAncia-e-colabora%C3%A7%C3%A3o-marco-antonio/?originalSubdomain=pt">https://www.linkedin.com</a>
+
 
 
 <!-- Animated img -->
