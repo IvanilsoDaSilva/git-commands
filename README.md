@@ -30,8 +30,7 @@ This Git repository was created for the purpose of storing and documenting a col
   ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=FFFFFF&color=FF00FF)&nbsp;
 
   <!-- Languages -->
-
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=FFFFFF&color=FF00FF)&nbsp;
+  ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=FFFFFF&color=FF00FF)&nbsp;
 
   <!-- Frameworks -->
 
@@ -44,134 +43,35 @@ This Git repository was created for the purpose of storing and documenting a col
 <h2 align="right">1.4. GIT COMMANDS 💡</h2>
 <p align="right">Use the following commands (if there are commands) by <kbd>CTRL</kbd>+<kbd>V</kbd> where necessary</p>
 
-📌 INITIATE GIT
+<h2 align="right">1.4.3 BASIC</h2>
 
-```
-git init
-```
-
+<!-- Create -->
 📌 COPY A REMOTE REPOSITORY ✨
-
 ```
 git clone {remote repository link}
 ```
 
-📌 ADD CHANGES FROM A LOCAL REPOSITORY ✨
+📌 INITIATE GIT
+```
+git init
+```
 
+📌 ADD CHANGES FROM A LOCAL REPOSITORY ✨
 ```
 git add {path of the files to be added separated by space, or use "*" and also "." to add all changes}
 ```
 
 📌 REMOVE CHANGES FROM A LOCAL REPOSITORY ✨
-
 ```
 git reset HEAD {path of the files to be added separated by space, or use "*" and also "." to add all changes}
 ```
 
 📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT ✨
-
 ```
 git commit -m {description}
 ```
 
-📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY ✨
-
-```
-git push
-```
-
-📌 UPDATE LOCAL REPOSITORY BRANCHS FROM REMOTE REPOSITORY ✨
-
-```
-git fetch --prune --all
-```
-
-📌 SHOW LOCAL REPOSITORY BRANCHES ✨
-
-```
-git branch
-```
-
-📌 SHOW REMOTE REPOSITORY BRANCHES
-
-```
-git branch -a
-```
-
-📌 SWITCH BETWEEN LOCAL BRANCHES ✨
-
-```
-git checkout {branch name}
-```
-
-📌 CREATE A LOCAL BRANCH ✨
-
-```
-git checkout -b {branch name}
-```
-
-📌 SHOWS DETAILED INFORMATION ABOUT A BRANCH
-
-```
-git show
-```
-
-📌 SHOW THE COMMIT HISTORY OF A REPOSITORY
-
-```
-git log
-```
-
-📌 SHOW UNCOMMITTED CHANGES FROM A BRANCH ✨
-
-```
-git status
-```
-
-📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY ✨
-
-```
-git pull
-```
-
-📌 DELETE A REMOTE BRANCH
-
-```
-git push origin :{branch name}
-```
-
-📌 DELETE A LOCAL BRANCH ✨
-
-```
-git branch -d :{branch name}
-```
-
-📌 DELETE A LOCAL BRANCH (FORCED)
-
-```
-git branch -D :{branch name}
-```
-
-📌 UNDO ALL CHANGES
-
-```
-git checkout .
-```
-
-📌 SHOW GIT USER NAME
-
-```
-git config user.name
-```
-
-📌 SHOW GIT USER EMAIL
-
-```
-git config user.email
-```
-
 📌 ADD COAUTHOR
-
 ```
 git commit -m "Commit name.
 
@@ -180,33 +80,125 @@ Co-authored-by: {COAUTHOR NAME} <{COAUTHOR EMAIL}>
 ```
 
 📌 UNDO THE LAST COMMIT (WITHOUT LOSING CHANGES) ✨
-
 ```
 git reset --soft HEAD~{number of commits back}
 ```
 
 📌 UNDO THE LAST COMMIT (LOSING CHANGES)
-
 ```
 git reset --hard HEAD~{number of commits back}
 ```
 
-📌 COPY A REMOTE REPOSITORY (EXACT COPY)
+📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY ✨
+```
+git push
+```
 
+<!-- Read -->
+📌 SHOW THE COMMIT HISTORY OF A REPOSITORY
+```
+git log
+```
+
+<!-- Update -->
+📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY ✨
+```
+git pull
+```
+
+<!-- Delete -->
+📌 UNDO ALL CHANGES
+```
+git checkout .
+```
+
+<h2 align="right">1.4.3 BRANCHS</h2>
+
+<!-- Create -->
+📌 CREATE A LOCAL BRANCH ✨
+```
+git checkout -b {branch name}
+```
+
+<!-- Read -->
+📌 SHOW LOCAL REPOSITORY BRANCHES ✨
+```
+git branch
+```
+
+📌 SHOW UNCOMMITTED CHANGES FROM A BRANCH ✨
+```
+git status
+```
+
+📌 SHOWS DETAILED INFORMATION ABOUT A BRANCH
+```
+git show
+```
+
+<!-- Update -->
+📌 SWITCH BETWEEN LOCAL BRANCHES ✨
+```
+git checkout {branch name}
+```
+
+📌 RENAME A LOCAL BRANCH ✨
+```
+git branch -m {branch name} {branch name to rename}
+```
+
+📌 UPDATE LOCAL REPOSITORY BRANCHS FROM REMOTE REPOSITORY ✨
+```
+git fetch --prune --all
+```
+
+📌 BRING THE UPDATE FROM A COMMIT TO THE CURRENT BRANCH
+```
+git cherry-pick {commit hash}
+```
+
+📌 UPDATES THE CURRENT BRANCH FROM ANOTHER BRANCH
+```
+git merge {branch name}
+```
+
+<!-- Delete -->
+📌 DELETE A REMOTE BRANCH
+```
+git push origin :{branch name}
+```
+
+📌 DELETE A LOCAL BRANCH ✨
+```
+git branch -d :{branch name}
+```
+
+📌 DELETE A LOCAL BRANCH (FORCED)
+```
+git branch -D :{branch name}
+```
+
+<h2 align="right">1.4.3 OTHERS</h2>
+
+<!-- Others -->
+📌 SHOW GIT USER NAME
+```
+git config user.name
+```
+
+📌 SHOW GIT USER EMAIL
+```
+git config user.email
+```
+
+📌 COPY A REMOTE REPOSITORY (EXACT COPY)
 ```
 git clone --mirror {remote repository link}
 ```
 
 📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY (EXACT COPY)
-
 ```
 git push --mirror {remote repository link}
-```
-
-📌 BRING THE UPDATE FROM A COMMIT TO THE CURRENT BRANCH
-
-```
-git cherry-pick {commit hash}
 ```
 
 <h2 align="right">1.5. GIT WORKFLOW COMMANDS 💡</h2>
