@@ -248,7 +248,7 @@ Utilizado quando há alterações no código que não adicionam nova funcionalid
 
 📌 CHORE
 
-Refere-se a tarefas relacionadas a ajustes de configuração, atualizações de dependências, refatorações menores, entre outros. Esse prefixo é usado para commits que não estão diretamente ligados a funcionalidades ou correções de bugs.
+Refere-se a tarefas relacionadas a ajustes de configuração, atualizações de dependências, refatorações menores, entre outros. Esse prefixo é usado para commits que não estão diretamente ligados a funcionalidades ou correções de bugs, como por exemplo adicionar um pacote no gitignore.
 
 📌 DOCS
 
