@@ -228,6 +228,9 @@ git flow {branch type} finish {branch name}
 
 <h2 align="right">1.6. GIT SEMANTIC 💡</h2>
 
+<!-- Example img -->
+<img width=100% src="https://ivanilsodasilva.github.io/git-commands/assets/gitsemantic-example.png"/>
+
 📌 FEAT
 
 Indica a adição de uma nova funcionalidade ao projeto. Use este prefixo quando o commit introduzir uma nova capacidade ou recurso no software.
