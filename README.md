@@ -234,6 +234,9 @@ git flow {branch type} finish {branch name}
 
 <h2 align="right">1.6. GIT SEMANTIC 💡</h2>
 
+O Git Semântico é uma abordagem para controle de versão de código que visa trazer mais significado e estrutura para as alterações realizadas em um projeto de desenvolvimento de software. Ao contrário do versionamento tradicional, em que as versões são apenas números sequenciais, o Git Semântico utiliza um sistema de versionamento baseado em significado e semântica.
+A ideia central do Git Semântico é atribuir um significado claro às alterações feitas no código. Isso é alcançado através da utilização de regras de versionamento semântico, que definem um padrão para a numeração das versões com base no impacto das alterações.
+
 <!-- Example img -->
 <img width=100% src="https://ivanilsodasilva.github.io/git-commands/assets/gitsemantic-example.png"/>
 
