@@ -1,8 +1,9 @@
 <!-- Caracter Icon -->
+
 ──────▄▀▄─────▄▀▄  
 ─────▄█░░▀▀▀▀▀░░█▄  
 ─▄▄──█░░░░░░░░░░░█──▄▄  
-█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█  
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
 
 <!-- Animated img -->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=FF00FF&height=120&section=header"/>
@@ -29,115 +30,142 @@ This Git repository was created for the purpose of storing and documenting a col
   ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=FFFFFF&color=FF00FF)&nbsp;
 
   <!-- Languages -->
-  ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=FFFFFF&color=FF00FF)&nbsp;
+
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=FFFFFF&color=FF00FF)&nbsp;
 
   <!-- Frameworks -->
 
   <!-- Softwares -->
 
   <!-- Others -->
-  
+
 </div>
 
-<h2 align="right">1.5. COMMANDS 💡</h2>
+<h2 align="right">1.4. GIT COMMANDS 💡</h2>
 <p align="right">Use the following commands (if there are commands) by <kbd>CTRL</kbd>+<kbd>V</kbd> where necessary</p>
 
-📌 COPY A REMOTE REPOSITORY ✨  
+📌 INITIATE GIT
+
+```
+git init
+```
+
+📌 COPY A REMOTE REPOSITORY ✨
+
 ```
 git clone {remote repository link}
 ```
 
-📌 ADD CHANGES FROM A LOCAL REPOSITORY ✨  
+📌 ADD CHANGES FROM A LOCAL REPOSITORY ✨
+
 ```
 git add {path of the files to be added separated by space, or use "*" and also "." to add all changes}
 ```
 
-📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT ✨  
+📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT ✨
+
 ```
 git commit -m {description}
 ```
 
-📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY ✨  
+📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY ✨
+
 ```
 git push --set-upstream {remote repository link} {remote branch name}
 ```
 
-📌 UPDATE LOCAL REPOSITORY BRANCHS FROM REMOTE REPOSITORY ✨  
+📌 UPDATE LOCAL REPOSITORY BRANCHS FROM REMOTE REPOSITORY ✨
+
 ```
 git fetch --prune --all
 ```
 
-📌 SHOW LOCAL REPOSITORY BRANCHES ✨  
+📌 SHOW LOCAL REPOSITORY BRANCHES ✨
+
 ```
 git branch
 ```
 
 📌 SHOW REMOTE REPOSITORY BRANCHES
+
 ```
 git branch -a
 ```
 
-📌 SWITCH BETWEEN LOCAL BRANCHES ✨  
+📌 SWITCH BETWEEN LOCAL BRANCHES ✨
+
 ```
 git checkout {branch name}
 ```
 
-📌 CREATE A LOCAL BRANCH ✨  
+📌 CREATE A LOCAL BRANCH ✨
+
 ```
 git checkout -b {branch name}
 ```
 
 📌 SHOWS DETAILED INFORMATION ABOUT A BRANCH
+
 ```
 git show
 ```
 
 📌 SHOW THE COMMIT HISTORY OF A REPOSITORY
+
 ```
 git log
 ```
 
-📌 SHOW UNCOMMITTED CHANGES FROM A BRANCH ✨  
+📌 SHOW UNCOMMITTED CHANGES FROM A BRANCH ✨
+
 ```
 git status
 ```
 
-📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY ✨  
+📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY ✨
+
 ```
 git pull
 ```
 
 📌 DELETE A REMOTE BRANCH
+
 ```
 git push origin :{branch name}
 ```
 
-📌 DELETE A LOCAL BRANCH ✨  
+📌 DELETE A LOCAL BRANCH ✨
+
 ```
 git branch -d :{branch name}
 ```
 
 📌 DELETE A LOCAL BRANCH (FORCED)
+
 ```
 git branch -D :{branch name}
 ```
 
 📌 UNDO ALL CHANGES
+
 ```
 git checkout .
 ```
 
 📌 SHOW GIT USER NAME
+
 ```
 git config user.name
 ```
 
 📌 SHOW GIT USER EMAIL
+
 ```
 git config user.email
 ```
 
 📌 ADD COAUTHOR
+
 ```
 git commit -m "Commit name.
 
@@ -145,33 +173,106 @@ git commit -m "Commit name.
 Co-authored-by: {COAUTHOR NAME} <{COAUTHOR EMAIL}>
 ```
 
-📌 UNDO THE LAST COMMIT (WITHOUT LOSING CHANGES) ✨  
+📌 UNDO THE LAST COMMIT (WITHOUT LOSING CHANGES) ✨
+
 ```
 git reset --soft HEAD~{number of commits back}
 ```
 
-📌 UNDO THE LAST COMMIT (LOSING CHANGES)   
+📌 UNDO THE LAST COMMIT (LOSING CHANGES)
+
 ```
 git reset --hard HEAD~{number of commits back}
 ```
 
 📌 COPY A REMOTE REPOSITORY (EXACT COPY)
+
 ```
 git clone --mirror {remote repository link}
 ```
 
 📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY (EXACT COPY)
+
 ```
 git push --mirror {remote repository link}
 ```
 
-📌 BRING THE UPDATE FROM A COMMIT TO THE CURRENT BRANCH  
+📌 BRING THE UPDATE FROM A COMMIT TO THE CURRENT BRANCH
+
 ```
 git cherry-pick {commit hash}
 ```
 
+<h2 align="right">1.5. GIT WORKFLOW COMMANDS 💡</h2>
 
-<h2 align="right">1.6. OTHER REPOSITORIES 📘</h2>
+<!-- Example img -->
+<img width=100% src="https://ivanilsodasilva.github.io/git-commands/assets/gitflow-example.png"/>
+
+📌 INITIATE GIT WORKFLOW
+
+```
+git flow init
+```
+
+📌 STARTS A NEW BRANCH (feature, bugfix, realese, hotfix, support)
+
+```
+git flow {branch type} start {branch name}
+```
+
+📌 FINALIZE A BRANCH (feature, bugfix, realese, hotfix, support)
+
+```
+git flow {branch type} finish {branch name}
+```
+
+<h2 align="right">1.6. GIT SEMANTIC 💡</h2>
+
+📌 FIX
+
+Utilizado para correções de bugs. Deve ser usado quando o commit se destina a resolver um problema específico no código.
+
+📌 HOTFIX
+
+Utilizado para correções de bugs. Deve ser usado quando o commit se destina a resolver um problema específico no código.
+
+📌 FEATURE
+
+Indica a adição de uma nova funcionalidade ao projeto. Use este prefixo quando o commit introduzir uma nova capacidade ou recurso no software.
+
+📌 REFACTOR
+
+Utilizado quando há alterações no código que não adicionam nova funcionalidade nem corrigem bugs, mas melhoram a estrutura, legibilidade ou eficiência do código existente.
+
+📌 CHORE
+
+Refere-se a tarefas relacionadas a ajustes de configuração, atualizações de dependências, refatorações menores, entre outros. Esse prefixo é usado para commits que não estão diretamente ligados a funcionalidades ou correções de bugs.
+
+📌 DOCUMENTS
+
+Indica alterações na documentação do projeto, como atualizações de README, comentários de código, exemplos, guias ou qualquer outra forma de documentação.
+
+📌 TEST
+
+Utilizado para commits relacionados a testes, como adição ou modificação de testes unitários, testes de integração ou testes automatizados em geral.
+
+📌 STYLE
+
+Refere-se a alterações de formatação, espaçamento, indentação ou qualquer mudança relacionada à estética do código, sem afetar seu funcionamento.
+
+📌 REVERT
+
+Utilizado para reverter um commit anterior, cancelando as alterações introduzidas por ele.
+
+📌 BUILD
+
+Indica alterações relacionadas ao processo de build, compilação ou empacotamento do projeto, como scripts de build, configurações de CI/CD, ou atualizações de dependências de build.
+
+📌 INIT
+
+Utilizado para o primeiro commit de um projeto, marcando o início do repositório Git.
+
+<h2 align="right">1.7. OTHER REPOSITORIES 📘</h2>
 
 <div>
   <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=IvanilsoDaSilva&repo=sistema-bancario-frontend&bg_color=FF00FF&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&border_color=FFFFFF"/>
