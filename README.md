@@ -62,6 +62,12 @@ git clone {remote repository link}
 git add {path of the files to be added separated by space, or use "*" and also "." to add all changes}
 ```
 
+📌 REMOVE CHANGES FROM A LOCAL REPOSITORY ✨
+
+```
+git reset HEAD {path of the files to be added separated by space, or use "*" and also "." to add all changes}
+```
+
 📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT ✨
 
 ```
