@@ -77,7 +77,7 @@ git commit -m {description}
 📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY ✨
 
 ```
-git push --set-upstream {remote repository link} {remote branch name}
+git push
 ```
 
 📌 UPDATE LOCAL REPOSITORY BRANCHS FROM REMOTE REPOSITORY ✨
