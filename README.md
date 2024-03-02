@@ -266,7 +266,7 @@ Utilizado quando há alterações no código que não adicionam nova funcionalid
 
 Refere-se a tarefas relacionadas a ajustes de configuração, atualizações de dependências, refatorações menores, entre outros. Esse prefixo é usado para commits que não estão diretamente ligados a funcionalidades ou correções de bugs, como por exemplo adicionar um pacote no gitignore.
 
-📌 DOCS
+📌 DOC
 
 Indica alterações na documentação do projeto, como atualizações de README, comentários de código, exemplos, guias ou qualquer outra forma de documentação.
 
