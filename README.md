@@ -228,19 +228,21 @@ git flow {branch type} finish {branch name}
 
 <h2 align="right">1.6. GIT SEMANTIC 💡</h2>
 
-📌 FIX
-
-Utilizado para correções de bugs. Deve ser usado quando o commit se destina a resolver um problema específico no código.
-
-📌 HOTFIX
-
-Utilizado para correções de bugs. Deve ser usado quando o commit se destina a resolver um problema específico no código.
-
-📌 FEATURE
+📌 FEAT
 
 Indica a adição de uma nova funcionalidade ao projeto. Use este prefixo quando o commit introduzir uma nova capacidade ou recurso no software.
 
-📌 REFACTOR
+📌 BUGFIX
+
+Como o próprio nome já diz, é um BUG e precisa ser corrigido de forma imediata, o quanto antes. Num outro artigo eu explico melhor a utilização desse cara e branches principais.
+
+📌 HOTFIX
+
+Às vezes esse termo pode ser usado de outras formas, até mesmo para usar no lugar do bugfix. Porém, eu prefiro separar, deixar com semânticas diferentes.  
+
+Ele é bem similar ao bugfix/, porém, ele não é um BUG, mas sim uma correção, seja ela de cor, textos, alterações não tão urgentes, que não signifiquem BUG's.
+
+📌 REFAC
 
 Utilizado quando há alterações no código que não adicionam nova funcionalidade nem corrigem bugs, mas melhoram a estrutura, legibilidade ou eficiência do código existente.
 
@@ -248,7 +250,7 @@ Utilizado quando há alterações no código que não adicionam nova funcionalid
 
 Refere-se a tarefas relacionadas a ajustes de configuração, atualizações de dependências, refatorações menores, entre outros. Esse prefixo é usado para commits que não estão diretamente ligados a funcionalidades ou correções de bugs.
 
-📌 DOCUMENTS
+📌 DOCS
 
 Indica alterações na documentação do projeto, como atualizações de README, comentários de código, exemplos, guias ou qualquer outra forma de documentação.
 
