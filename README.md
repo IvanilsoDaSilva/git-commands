@@ -68,7 +68,7 @@ git reset HEAD {path of the files to be added separated by space, or use "*" and
 
 📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT ✨
 ```
-git commit -m {description}
+git commit -m {commit description}
 ```
 
 📌 ADD COAUTHOR
@@ -224,7 +224,7 @@ git flow {branch type} start {branch name}
 📌 FINALIZE A BRANCH (feature, bugfix, realese, hotfix, support)
 
 ```
-git flow {branch type} finish {branch name}
+git flow {branch type} finish -m {merge description} {branch name}
 ```
 
 <h2 align="right">1.6. GIT SEMANTIC 💡</h2>
@@ -238,7 +238,7 @@ A ideia central do Git Semântico é atribuir um significado claro às alteraç�
 
 📌 STRUCTURE
 ```
-{type}({scope: optional}): {description}
+{type}({scope: optional}): {commit description}
 {body: optional}
 {footer: optional}
 ```
