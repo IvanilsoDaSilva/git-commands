@@ -51,6 +51,11 @@ This Git repository was created for the purpose of storing and documenting a col
 git clone {remote repository link}
 ```
 
+📌 SYNCHRONIZE THE LOCAL REPOSITORY TO THE REMOTE
+```
+git remote add origin https://github.com/IvanilsoDaSilva/git-test.git
+```
+
 📌 INITIATE GIT
 ```
 git init
