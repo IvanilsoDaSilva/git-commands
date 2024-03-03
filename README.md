@@ -219,7 +219,7 @@ O Gitflow é um modelo alternativo de ramificação do Git que consiste no uso d
 git flow init
 ```
 
-📌 STARTS A NEW BRANCH (feature, bugfix, realese, hotfix, support)
+📌 STARTS A NEW BRANCH (feature, bugfix, realese, hotfix, support) ✨
 ```
 git flow {branch type} start {branch name}
 ```
