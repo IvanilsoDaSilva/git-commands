@@ -215,19 +215,16 @@ O Gitflow é um modelo alternativo de ramificação do Git que consiste no uso d
 <img width=100% src="https://ivanilsodasilva.github.io/git-commands/assets/gitflow-example.png"/>
 
 📌 INITIATE GIT WORKFLOW
-
 ```
 git flow init
 ```
 
 📌 STARTS A NEW BRANCH (feature, bugfix, realese, hotfix, support)
-
 ```
 git flow {branch type} start {branch name}
 ```
 
 📌 FINALIZE A BRANCH (feature, bugfix, realese, hotfix, support)
-
 ```
 git flow {branch type} finish -m {merge description} {branch name}
 ```
@@ -263,49 +260,38 @@ Referências: #123
 ```
 
 📌 FEAT
-
 Indica a adição de uma nova funcionalidade ao projeto. Use este prefixo quando o commit introduzir uma nova capacidade ou recurso no software.
 
 📌 BUGFIX
-
 Como o próprio nome já diz, é um BUG e precisa ser corrigido de forma imediata, o quanto antes. Num outro artigo eu explico melhor a utilização desse cara e branches principais.
 
 📌 HOTFIX
-
 Às vezes esse termo pode ser usado de outras formas, até mesmo para usar no lugar do bugfix. Porém, eu prefiro separar, deixar com semânticas diferentes.  
 
 Ele é bem similar ao bugfix/, porém, ele não é um BUG, mas sim uma correção, seja ela de cor, textos, alterações não tão urgentes, que não signifiquem BUG's.
 
 📌 REFAC
-
 Utilizado quando há alterações no código que não adicionam nova funcionalidade nem corrigem bugs, mas melhoram a estrutura, legibilidade ou eficiência do código existente.
 
 📌 CHORE
-
 Refere-se a tarefas relacionadas a ajustes de configuração, atualizações de dependências, refatorações menores, entre outros. Esse prefixo é usado para commits que não estão diretamente ligados a funcionalidades ou correções de bugs, como por exemplo adicionar um pacote no gitignore.
 
 📌 DOC
-
 Indica alterações na documentação do projeto, como atualizações de README, comentários de código, exemplos, guias ou qualquer outra forma de documentação.
 
 📌 TEST
-
 Utilizado para commits relacionados a testes, como adição ou modificação de testes unitários, testes de integração ou testes automatizados em geral.
 
 📌 STYLE
-
 Refere-se a alterações de formatação, espaçamento, indentação ou qualquer mudança relacionada à estética do código, sem afetar seu funcionamento.
 
 📌 REVERT
-
 Utilizado para reverter um commit anterior, cancelando as alterações introduzidas por ele.
 
 📌 BUILD
-
 Indica alterações relacionadas ao processo de build, compilação ou empacotamento do projeto, como scripts de build, configurações de CI/CD, ou atualizações de dependências de build.
 
 📌 INIT
-
 Utilizado para o primeiro commit de um projeto, marcando o início do repositório Git.
 
 <h2 align="right">1.7. OTHER REPOSITORIES 📘</h2>
