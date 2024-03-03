@@ -53,7 +53,7 @@ git clone {remote repository link}
 
 📌 SYNCHRONIZE THE LOCAL REPOSITORY TO THE REMOTE
 ```
-git remote add origin https://github.com/IvanilsoDaSilva/git-test.git
+git remote add origin {remote repository link}
 ```
 
 📌 INITIATE GIT
