@@ -229,6 +229,11 @@ git flow {branch type} start {branch name}
 git flow {branch type} finish -m {merge description} {branch name}
 ```
 
+📌 PUBLISHES THE BRANCH TO THE REMOTE REPOSITORY (feature, bugfix, realese, hotfix, support)
+```
+git flow {branch type} publish {branch name}
+```
+
 <h2 align="right">1.6. GIT SEMANTIC 💡</h2>
 
 O Git Semântico é uma abordagem para controle de versão de código que visa trazer mais significado e estrutura para as alterações realizadas em um projeto de desenvolvimento de software. Ao contrário do versionamento tradicional, em que as versões são apenas números sequenciais, o Git Semântico utiliza um sistema de versionamento baseado em significado e semântica.
