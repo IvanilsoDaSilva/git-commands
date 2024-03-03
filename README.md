@@ -99,6 +99,11 @@ git reset --hard HEAD~{number of commits back}
 git push
 ```
 
+📌 UPDATE ALL REMOTE REPOSITORY FROM LOCAL REPOSITORY
+```
+git push --all
+```
+
 <!-- Read -->
 📌 SHOW THE COMMIT HISTORY OF A REPOSITORY
 ```
