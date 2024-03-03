@@ -46,7 +46,7 @@ This Git repository was created for the purpose of storing and documenting a col
 <h2 align="right">1.4.3 BASIC</h2>
 
 <!-- Create -->
-📌 COPY A REMOTE REPOSITORY ✨
+📌 COPY A REMOTE REPOSITORY
 ```
 git clone {remote repository link}
 ```
@@ -61,7 +61,7 @@ git remote add origin {remote repository link}
 git init
 ```
 
-📌 ADD CHANGES FROM A LOCAL REPOSITORY ✨
+📌 ADD CHANGES FROM A LOCAL REPOSITORY
 ```
 git add {path of the files to be added separated by space, or use "*" and also "." to add all changes}
 ```
@@ -71,12 +71,12 @@ git add {path of the files to be added separated by space, or use "*" and also "
 git reset HEAD {path of the files to be added separated by space, or use "*" and also "." to add all changes}
 ```
 
-📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT ✨
+📌 PACK CHANGES FROM A LOCAL REPOSITORY INTO A COMMIT
 ```
 git commit -m {commit description}
 ```
 
-📌 ADD COAUTHOR
+📌 ADD COAUTHOR ✨
 ```
 git commit -m "Commit name.
 
@@ -94,7 +94,7 @@ git reset --soft HEAD~{number of commits back}
 git reset --hard HEAD~{number of commits back}
 ```
 
-📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY ✨
+📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY
 ```
 git push
 ```
@@ -106,7 +106,7 @@ git log
 ```
 
 <!-- Update -->
-📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY ✨
+📌 UPDATE LOCAL REPOSITORY FROM REMOTE REPOSITORY
 ```
 git pull
 ```
@@ -120,13 +120,13 @@ git checkout .
 <h2 align="right">1.4.3 BRANCHS</h2>
 
 <!-- Create -->
-📌 CREATE A LOCAL BRANCH ✨
+📌 CREATE A LOCAL BRANCH
 ```
 git checkout -b {branch name}
 ```
 
 <!-- Read -->
-📌 SHOW LOCAL REPOSITORY BRANCHES ✨
+📌 SHOW LOCAL REPOSITORY BRANCHES
 ```
 git branch
 ```
@@ -136,13 +136,13 @@ git branch
 git status
 ```
 
-📌 SHOWS DETAILED INFORMATION ABOUT A BRANCH
+📌 SHOWS DETAILED INFORMATION ABOUT A BRANCH ✨
 ```
 git show
 ```
 
 <!-- Update -->
-📌 SWITCH BETWEEN LOCAL BRANCHES ✨
+📌 SWITCH BETWEEN LOCAL BRANCHES
 ```
 git checkout {branch name}
 ```
@@ -157,12 +157,12 @@ git branch -m {branch name} {branch name to rename}
 git fetch --prune --all
 ```
 
-📌 BRING THE UPDATE FROM A COMMIT TO THE CURRENT BRANCH
+📌 BRING THE UPDATE FROM A COMMIT TO THE CURRENT BRANCH ✨
 ```
 git cherry-pick {commit hash}
 ```
 
-📌 UPDATES THE CURRENT BRANCH FROM ANOTHER BRANCH
+📌 UPDATES THE CURRENT BRANCH FROM ANOTHER BRANCH ✨
 ```
 git merge {branch name}
 ```
@@ -173,7 +173,7 @@ git merge {branch name}
 git push origin :{branch name}
 ```
 
-📌 DELETE A LOCAL BRANCH ✨
+📌 DELETE A LOCAL BRANCH
 ```
 git branch -d :{branch name}
 ```
@@ -186,7 +186,7 @@ git branch -D :{branch name}
 <h2 align="right">1.4.3 OTHERS</h2>
 
 <!-- Others -->
-📌 SHOW GIT USER NAME
+📌 SHOW GIT USER NAME ✨
 ```
 git config user.name
 ```
