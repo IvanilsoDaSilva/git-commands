@@ -319,7 +319,5 @@ Utilizado para o primeiro commit de um projeto, marcando o início do repositór
 <a href="https://blog.betrybe.com/git/git-flow/">betrybe.com</a>
 <a href="https://www.linkedin.com/pulse/git-sem%C3%A2ntico-aumentando-efici%C3%AAncia-e-colabora%C3%A7%C3%A3o-marco-antonio/?originalSubdomain=pt">https://www.linkedin.com</a>
 
-
-
 <!-- Animated img -->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=FF00FF&height=120&section=footer"/>
