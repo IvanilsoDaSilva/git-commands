@@ -269,37 +269,37 @@ Revisado por: Z
 Referências: #123
 ```
 
-📌 FEAT
+📌 FEAT  
 Indicates the addition of a new feature to the project. Use this prefix when the commit introduces a new capability or feature into the software.
 
-📌 BUGFIX
+📌 BUGFIX  
 As the name implies, it's a BUG and needs to be fixed immediately, as soon as possible. In another article I'll explain more about the use of this guy and the main branches.
 
-📌 HOTFIX
+📌 HOTFIX  
 Sometimes this term can be used in other ways, even in place of bugfix. However, I prefer to separate them, to leave them with different semantics. It's very similar to bugfix/, but it's not a BUG, it's a correction, whether it's to color, text, or not-so-urgent changes that don't mean BUGs.
 
-📌 REFAC
+📌 REFAC  
 Used when there are changes to the code that do not add new functionality or fix bugs, but improve the structure, readability or efficiency of the existing code.
 
-📌 CHORE
+📌 CHORE  
 This refers to tasks related to configuration adjustments, dependency updates, minor refactorings, etc. This prefix is used for commits that are not directly linked to features or bug fixes, such as adding a package to gitignore.
 
-📌 DOC
+📌 DOC  
 Indicates changes to the project documentation, such as README updates, code comments, examples, guides or any other form of documentation.
 
-📌 TEST
+📌 TEST  
 Used for test-related commits, such as adding or modifying unit tests, integration tests or automated tests in general.
 
-📌 STYLE
+📌 STYLE  
 This refers to changes in formatting, spacing, indentation or any change related to the aesthetics of the code, without affecting its operation.
 
-📌 REVERT
+📌 REVERT  
 Used to revert a previous commit, canceling the changes introduced by it.
 
-📌 BUILD
+📌 BUILD  
 Indicates changes related to the build process, compilation or packaging of the project, such as build scripts, CI/CD configurations, or updates to build dependencies.
 
-📌 INIT
+📌 INIT  
 Used for the first commit of a project, marking the start of the Git repository.
 
 <h2 align="right">1.7. OTHER REPOSITORIES 📘</h2>
