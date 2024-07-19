@@ -214,7 +214,7 @@ git push --mirror {remote repository link}
 <h2 align="right">1.5. GIT WORKFLOW COMMANDS 💡</h2>
 <p align="right">Use the following commands (if there are commands) by <kbd>CTRL</kbd>+<kbd>V</kbd> where necessary</p>
 
-O Gitflow é um modelo alternativo de ramificação do Git que consiste no uso de ramificações de recursos e várias ramificações primárias. Ele foi publicado pela primeira vez e popularizado por Vincent Driessen no nvie. Comparado ao desenvolvimento baseado em troncos, o Gitflow tem mais ramificações de vida longa e commits maiores. Sob este modelo, os desenvolvedores criam uma ramificação de recurso e retardam o merge com a ramificação de tronco principal até que o recurso esteja completo.
+Gitflow is an alternative Git branching model that consists of using resource branches and several primary branches. It was first published and popularized by Vincent Driessen on nvie. Compared to trunk-based development, Gitflow has more long-lived branches and larger commits. Under this model, developers create a feature branch and delay the merge with the main trunk branch until the feature is complete.
 
 <!-- Example img -->
 <img width=100% src="https://ivanilsodasilva.github.io/git-commands/assets/gitflow-example.png"/>
@@ -241,9 +241,9 @@ git flow {branch type} publish {branch name}
 
 <h2 align="right">1.6. GIT SEMANTIC 💡</h2>
 
-O Git Semântico é uma abordagem para controle de versão de código que visa trazer mais significado e estrutura para as alterações realizadas em um projeto de desenvolvimento de software. Ao contrário do versionamento tradicional, em que as versões são apenas números sequenciais, o Git Semântico utiliza um sistema de versionamento baseado em significado e semântica.
+Semantic Git is an approach to code version control that aims to bring more meaning and structure to the changes made in a software development project. Unlike traditional versioning, where versions are just sequential numbers, Semantic Git uses a versioning system based on meaning and semantics.
 
-A ideia central do Git Semântico é atribuir um significado claro às alterações feitas no código. Isso é alcançado através da utilização de regras de versionamento semântico, que definem um padrão para a numeração das versões com base no impacto das alterações.
+The central idea of Semantic Git is to assign a clear meaning to the changes made to the code. This is achieved through the use of semantic versioning rules, which define a standard for version numbering based on the impact of the changes.
 
 <!-- Example img -->
 <img width=100% src="https://ivanilsodasilva.github.io/git-commands/assets/gitsemantic-example.png"/>
@@ -270,39 +270,37 @@ Referências: #123
 ```
 
 📌 FEAT
-Indica a adição de uma nova funcionalidade ao projeto. Use este prefixo quando o commit introduzir uma nova capacidade ou recurso no software.
+Indicates the addition of a new feature to the project. Use this prefix when the commit introduces a new capability or feature into the software.
 
 📌 BUGFIX
-Como o próprio nome já diz, é um BUG e precisa ser corrigido de forma imediata, o quanto antes. Num outro artigo eu explico melhor a utilização desse cara e branches principais.
+As the name implies, it's a BUG and needs to be fixed immediately, as soon as possible. In another article I'll explain more about the use of this guy and the main branches.
 
 📌 HOTFIX
-Às vezes esse termo pode ser usado de outras formas, até mesmo para usar no lugar do bugfix. Porém, eu prefiro separar, deixar com semânticas diferentes.  
-
-Ele é bem similar ao bugfix/, porém, ele não é um BUG, mas sim uma correção, seja ela de cor, textos, alterações não tão urgentes, que não signifiquem BUG's.
+Sometimes this term can be used in other ways, even in place of bugfix. However, I prefer to separate them, to leave them with different semantics. It's very similar to bugfix/, but it's not a BUG, it's a correction, whether it's to color, text, or not-so-urgent changes that don't mean BUGs.
 
 📌 REFAC
-Utilizado quando há alterações no código que não adicionam nova funcionalidade nem corrigem bugs, mas melhoram a estrutura, legibilidade ou eficiência do código existente.
+Used when there are changes to the code that do not add new functionality or fix bugs, but improve the structure, readability or efficiency of the existing code.
 
 📌 CHORE
-Refere-se a tarefas relacionadas a ajustes de configuração, atualizações de dependências, refatorações menores, entre outros. Esse prefixo é usado para commits que não estão diretamente ligados a funcionalidades ou correções de bugs, como por exemplo adicionar um pacote no gitignore.
+This refers to tasks related to configuration adjustments, dependency updates, minor refactorings, etc. This prefix is used for commits that are not directly linked to features or bug fixes, such as adding a package to gitignore.
 
 📌 DOC
-Indica alterações na documentação do projeto, como atualizações de README, comentários de código, exemplos, guias ou qualquer outra forma de documentação.
+Indicates changes to the project documentation, such as README updates, code comments, examples, guides or any other form of documentation.
 
 📌 TEST
-Utilizado para commits relacionados a testes, como adição ou modificação de testes unitários, testes de integração ou testes automatizados em geral.
+Used for test-related commits, such as adding or modifying unit tests, integration tests or automated tests in general.
 
 📌 STYLE
-Refere-se a alterações de formatação, espaçamento, indentação ou qualquer mudança relacionada à estética do código, sem afetar seu funcionamento.
+This refers to changes in formatting, spacing, indentation or any change related to the aesthetics of the code, without affecting its operation.
 
 📌 REVERT
-Utilizado para reverter um commit anterior, cancelando as alterações introduzidas por ele.
+Used to revert a previous commit, canceling the changes introduced by it.
 
 📌 BUILD
-Indica alterações relacionadas ao processo de build, compilação ou empacotamento do projeto, como scripts de build, configurações de CI/CD, ou atualizações de dependências de build.
+Indicates changes related to the build process, compilation or packaging of the project, such as build scripts, CI/CD configurations, or updates to build dependencies.
 
 📌 INIT
-Utilizado para o primeiro commit de um projeto, marcando o início do repositório Git.
+Used for the first commit of a project, marking the start of the Git repository.
 
 <h2 align="right">1.7. OTHER REPOSITORIES 📘</h2>
 
