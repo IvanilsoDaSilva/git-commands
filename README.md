@@ -96,7 +96,7 @@ git reset --hard HEAD~{number of commits back}
 
 📌 UPDATE REMOTE REPOSITORY FROM LOCAL REPOSITORY
 ```
-git push
+git push origin {branch}
 ```
 
 📌 UPDATE ALL REMOTE REPOSITORY FROM LOCAL REPOSITORY
